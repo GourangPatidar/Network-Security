@@ -1,11 +1,11 @@
 from NetworkSecurity.components.data_ingestion import DataIngestion
 from NetworkSecurity.components.data_validation import DataValidation
 from NetworkSecurity.components.data_transformation import DataTransformation
-from NetworkSecurity.components.data_trainer import DataT
+from NetworkSecurity.components.model_trainer import ModelTrainer
 
 from NetworkSecurity.exception.exception import NetworkSecurityException
 from NetworkSecurity.logging.logger import logging
-from NetworkSecurity.entity.config_entity import DataIngestionConfig , DataValidationConfig , DataTransformationConfig
+from NetworkSecurity.entity.config_entity import DataIngestionConfig , DataValidationConfig , DataTransformationConfig , ModelTrainerConfig
 from NetworkSecurity.entity.config_entity import TrainingPipelineConfig
 
 
