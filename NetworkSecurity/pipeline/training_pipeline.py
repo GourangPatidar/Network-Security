@@ -46,7 +46,7 @@ class TrainingPipeline:
             return data_ingestion_artifact
         
         except Exception as e:
-            raise NetworkSecurityException(e,sys)
+            raise NetworkSecurityException(e, sys)
         
     def start_data_validation(self,data_ingestion_artifact:DataIngestionArtifact):
         try:
